@@ -26,7 +26,7 @@ form {
 
 form input,
 form button {
-    padding: .5rem;
+    padding: 0.5rem;
     font-size: 2rem;
     border: none;
     background: white;
@@ -70,8 +70,8 @@ form button:hover {
     flex: 1;
 }
 
-.trash-button,
-.complete-button {
+.trash-btn,
+.complete-btn {
     color: #fff;
     border: none;
     padding: 1rem;
@@ -79,19 +79,19 @@ form button:hover {
     font-size: 1rem;
 }
 
-.trash-button {
+.trash-btn {
     background: #ff5526;
 }
 
-.trash-button:hover {
+.trash-btn:hover {
     background: #d34822;
 }
 
-.complete-button {
+.complete-btn {
     background: #12d800;
 }
 
-.complete-button:hover {
+.complete-btn:hover {
     background: #0ead00;
 }
 
@@ -121,16 +121,19 @@ select {
     outline: none;
     box-shadow: none;
     border: none;
-    color: #ff5526;
-    width: 10rem;
-    cursor: pointer;
-    padding: 1rem;
 }
 
 .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
+}
+
+select {
+    color: #ff5526;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1.2rem;
 }
 
 .select::after {
